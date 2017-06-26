@@ -14,6 +14,8 @@
 		92CDC29A1F00C605009C643A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CDC2981F00C605009C643A /* LaunchScreen.storyboard */; };
 		92CDC2A51F00C605009C643A /* Memorable_PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CDC2A41F00C605009C643A /* Memorable_PlacesTests.swift */; };
 		92CDC2B01F00C605009C643A /* Memorable_PlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CDC2AF1F00C605009C643A /* Memorable_PlacesUITests.swift */; };
+		92CDC2BF1F00C63F009C643A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CDC2BE1F00C63F009C643A /* CoreLocation.framework */; };
+		92CDC2C11F00C777009C643A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CDC2C01F00C777009C643A /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		92CDC2AB1F00C605009C643A /* Memorable PlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memorable PlacesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CDC2AF1F00C605009C643A /* Memorable_PlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorable_PlacesUITests.swift; sourceTree = "<group>"; };
 		92CDC2B11F00C605009C643A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92CDC2BE1F00C63F009C643A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		92CDC2C01F00C777009C643A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CDC2BF1F00C63F009C643A /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				92CDC2A31F00C605009C643A /* Memorable PlacesTests */,
 				92CDC2AE1F00C605009C643A /* Memorable PlacesUITests */,
 				92CDC28D1F00C605009C643A /* Products */,
+				92CDC2BD1F00C63F009C643A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +109,7 @@
 				92CDC2961F00C605009C643A /* Assets.xcassets */,
 				92CDC2981F00C605009C643A /* LaunchScreen.storyboard */,
 				92CDC29B1F00C605009C643A /* Info.plist */,
+				92CDC2C01F00C777009C643A /* SecondViewController.swift */,
 			);
 			path = "Memorable Places";
 			sourceTree = "<group>";
@@ -123,6 +130,14 @@
 				92CDC2B11F00C605009C643A /* Info.plist */,
 			);
 			path = "Memorable PlacesUITests";
+			sourceTree = "<group>";
+		};
+		92CDC2BD1F00C63F009C643A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92CDC2BE1F00C63F009C643A /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CDC2C11F00C777009C643A /* SecondViewController.swift in Sources */,
 				92CDC2921F00C605009C643A /* ViewController.swift in Sources */,
 				92CDC2901F00C605009C643A /* AppDelegate.swift in Sources */,
 			);
